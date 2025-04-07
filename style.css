@@ -3,6 +3,10 @@ body {
     font-family: Roboto;
 }
 
+p {
+    font-size: 18px;
+}
+
 /* Hero styling */
 h1 {
     color: #F9FAF8;
@@ -110,6 +114,10 @@ h2 {
     text-align: center;
 }
 
+.card p {
+    color: #454545;
+}
+
 .card-img {
     border: 5px solid #3882F6;
     border-radius: 20px;
@@ -146,11 +154,13 @@ h2 {
 .author p {
     margin: 0;
     padding-right: 50px;
+    font-size: 24px;
 }
 
 /* CTA styling */
 h3 {
     margin: 0;
+    font-size: 24px;
 }
 
 .cta-section {
@@ -164,13 +174,18 @@ h3 {
 .cta-container {
     background-color: #3882F6;
     display: flex;
-    padding: 30px 100px;
+    padding: 50px 100px;
     gap: 100px;
     border-radius: 10px;
 }
 
 .cta-text {
     flex: 2 1 0;
+}
+
+.cta-text p {
+    color: #F9FAF8;
+    margin: 0;
 }
 
 .cta-button {
