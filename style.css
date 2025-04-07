@@ -7,6 +7,16 @@ p {
     font-size: 18px;
 }
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    padding: 10px 40px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
 /* Hero styling */
 h1 {
     color: #F9FAF8;
@@ -60,15 +70,6 @@ h1 {
     display: flex;
     justify-content: space-between;
     gap: 50px;
-}
-
-.hero-content button {
-    background-color: #3882F6;
-    color: #F9FAF8;
-    border: 0;
-    padding: 10px 40px;
-    border-radius: 10px;
-    font-size: 18px;
 }
 
 .hero-img {
@@ -193,12 +194,7 @@ h3 {
 }
 
 .cta-button button {
-    background-color: #3882F6;
-    color: #F9FAF8;
     border: 3px solid white;
-    padding: 10px 40px;
-    border-radius: 10px;
-    font-size: 18px;
 }
 
 /* Footer styling */
